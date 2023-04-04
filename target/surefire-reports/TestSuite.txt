@@ -1,0 +1,175 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 9, Errors: 0, Skipped: 4, Time elapsed: 14.927 sec <<< FAILURE! - in TestSuite
+Subscription Price Validation KSA Test(com.stc.tests.SubscriptionPriceValidationKSATest)  Time elapsed: 5.137 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O7P3JCP', ip: '192.168.100.33', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa4f6bf445a69a819219c9eed52580f8
+
+Subscription Curruncy Validation KSA Test(com.stc.tests.SubscriptionCurruncyValidationKSATest)  Time elapsed: 5.727 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O7P3JCP', ip: '192.168.100.33', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ae87a6d06c998ae9deebb46b0ce27fb
+
+Subscription Type Validation KSA Test(com.stc.tests.SubscriptionTypeValidationKSATest)  Time elapsed: 6.166 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O7P3JCP', ip: '192.168.100.33', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 361b57493824fa9cf87af0a09b8ef225
+
+Subscription Type Validation BAH Test(com.stc.tests.SubscriptionTypeValidationBAHTest)  Time elapsed: 0.052 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=111.0.5563.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O7P3JCP', ip: '192.168.100.33', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	(No symbol) [0x005EDCE3]
+	(No symbol) [0x005839D1]
+	(No symbol) [0x00494DA8]
+	(No symbol) [0x00488F47]
+	(No symbol) [0x00488ADB]
+	(No symbol) [0x00487F65]
+	(No symbol) [0x00487EFC]
+	(No symbol) [0x00486BF6]
+	(No symbol) [0x00487358]
+	(No symbol) [0x00486375]
+	(No symbol) [0x00490916]
+	(No symbol) [0x004861B5]
+	(No symbol) [0x00487C1A]
+	(No symbol) [0x00486BF6]
+	(No symbol) [0x00487358]
+	(No symbol) [0x00486375]
+	(No symbol) [0x0048E556]
+	(No symbol) [0x004861B5]
+	(No symbol) [0x00487C1A]
+	(No symbol) [0x00486BF6]
+	(No symbol) [0x00487358]
+	(No symbol) [0x00486375]
+	(No symbol) [0x0048C4CB]
+	(No symbol) [0x004861B5]
+	(No symbol) [0x00487C1A]
+	(No symbol) [0x00486BF6]
+	(No symbol) [0x00487358]
+	(No symbol) [0x00486375]
+	(No symbol) [0x00480B4F]
+	(No symbol) [0x004861B5]
+	(No symbol) [0x00485B6D]
+	(No symbol) [0x0048584C]
+	(No symbol) [0x00496143]
+	(No symbol) [0x0047C883]
+	(No symbol) [0x0047BF75]
+	(No symbol) [0x004E177D]
+	(No symbol) [0x004E129C]
+	(No symbol) [0x004DACC6]
+	(No symbol) [0x004B6F68]
+	(No symbol) [0x004B80CD]
+	GetHandleVerifier [0x00863832+2506274]
+	GetHandleVerifier [0x00899794+2727300]
+	GetHandleVerifier [0x0089E36C+2746716]
+	GetHandleVerifier [0x00696690+617600]
+	(No symbol) [0x0058C712]
+	(No symbol) [0x00591FF8]
+	(No symbol) [0x005920DB]
+	(No symbol) [0x0059C63B]
+	BaseThreadInitThunk [0x76D77D69+25]
+	RtlInitializeExceptionChain [0x778EB74B+107]
+	RtlClearBits [0x778EB6CF+191]
+
+
+Subscription Price Validation BAH Test(com.stc.tests.SubscriptionPriceValidationBAHTest)  Time elapsed: 0.489 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O7P3JCP', ip: '192.168.100.33', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 801b3ddaf0f71cbeac9f4742662300c3
+
+Subscription Curruncy Validation BAH Test(com.stc.tests.SubscriptionCurruncyValidationBAHTest)  Time elapsed: 1.084 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O7P3JCP', ip: '192.168.100.33', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed4d14788d6e284f540500daddf6bba5
+
+Subscription Price Validation KUW Test(com.stc.tests.SubscriptionPriceValidationKUWTest)  Time elapsed: 0.394 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O7P3JCP', ip: '192.168.100.33', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 931718fab4e406fbc1d1f9f8b5d1145a
+
+Subscription Curruncy Validation KUW Test(com.stc.tests.SubscriptionCurruncyValidationKUWTest)  Time elapsed: 0.802 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O7P3JCP', ip: '192.168.100.33', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 246b76786a8a83c800ee4049d9814b53
+
+Subscription Type Validation KUW Test(com.stc.tests.SubscriptionTypeValidationKUWTest)  Time elapsed: 2.063 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O7P3JCP', ip: '192.168.100.33', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	(No symbol) [0x005EDCE3]
+	(No symbol) [0x005839D1]
+	(No symbol) [0x00494DA8]
+	(No symbol) [0x004B20BC]
+	(No symbol) [0x004AED19]
+	(No symbol) [0x004E15AE]
+	(No symbol) [0x004E129C]
+	(No symbol) [0x004DACC6]
+	(No symbol) [0x004B6F68]
+	(No symbol) [0x004B80CD]
+	GetHandleVerifier [0x00863832+2506274]
+	GetHandleVerifier [0x00899794+2727300]
+	GetHandleVerifier [0x0089E36C+2746716]
+	GetHandleVerifier [0x00696690+617600]
+	(No symbol) [0x0058C712]
+	(No symbol) [0x00591FF8]
+	(No symbol) [0x005920DB]
+	(No symbol) [0x0059C63B]
+	BaseThreadInitThunk [0x76D77D69+25]
+	RtlInitializeExceptionChain [0x778EB74B+107]
+	RtlClearBits [0x778EB6CF+191]
+
+
